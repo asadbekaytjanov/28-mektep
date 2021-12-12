@@ -116,6 +116,7 @@ p{
         }
         #home-info{
                   height: 400px;
+                  padding-bottom: 20px;
         }
         #home-info .info-img{
                   float: left;
@@ -136,3 +137,23 @@ p{
                   padding-bottom: 20px;
                   font-size: 18px;
         }
+        /* Features section */
+        .box {
+          width: 33.3%;
+          float: left;
+          padding: 50px;
+          text-align: center;
+        }
+       .box i {
+         margin-bottom: 10px;
+       }
+       #main-footer{
+         text-align: center;
+         background-color: #444;
+         color: #fff;
+         padding: 20px;
+       }
+       #main-footer a{
+         color: #fff;
+       }
+       
