@@ -157,4 +157,36 @@ p{
        #main-footer a{
          color: #fff;
        }
+
        
+       /* about page style */
+
+
+
+       #about-info {
+         padding: 20px 0;
+         display: inline-block;
+         width: 100%;
+       }
+       #about-info .info-right{
+         float: right;
+         width: 50%;
+         min-height: 100%;
+       }
+       #about-info .info-right img {
+         display: block;
+         margin: auto;
+         width: 70%;
+         border-radius: 50%;
+
+       }
+       #about-info .info-left {
+         float: left;
+         width: 50%;
+         min-height: 100%;
+       }
+       .bottom {
+        position: absolute;
+        bottom: 0px;
+        width: 100%;
+       }
