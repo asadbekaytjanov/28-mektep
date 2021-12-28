@@ -93,7 +93,7 @@ ul li:hover{
 #showcase h1 , #showcase p{
   color: #fff;
 }
-container {
+.container {
   max-width: 1100px;
   margin: auto;
 
@@ -190,7 +190,7 @@ color: #f7c08a;
 }
 /* Features section */
 
-.box i {
+.box i , .box1 i{
  margin-bottom: 10px;
 }
 #main-footer{
