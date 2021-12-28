@@ -270,9 +270,9 @@ font-family: sans-serif;
  height: 100%;
  padding: 50px;
  text-align: center;
-
-
 }
+
+
 /* responsive */
 @media only screen and (max-width: 600px) {
           header nav {
@@ -300,6 +300,7 @@ font-family: sans-serif;
             text-align: center;
             padding: 50px 30px;
   }
+
  #features .box {
     width: 50%;
     float: left;
@@ -313,5 +314,10 @@ font-family: sans-serif;
     padding: 20px;
     text-align: center;
     
+  }
+  #home-info .info-content p{
+    padding-bottom: 15px;
+    font-size: 16.5px;
+  
   }
 }
