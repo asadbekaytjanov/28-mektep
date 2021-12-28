@@ -7,7 +7,7 @@
 }
 body{
           font-family: "Poppins", sans-serif;
-          background-color: black;
+          background-color: #f7c08a;
 
 }
 /* main styling */
@@ -189,12 +189,7 @@ color: #f7c08a;
   margin-bottom: 10px;
 }
 /* Features section */
-.box {
-  width: 33.3%;
-  float: left;
-  padding: 50px;
-  text-align: center;
-}
+
 .box i {
  margin-bottom: 10px;
 }
@@ -262,10 +257,20 @@ font-family: sans-serif;
 #features i ,#features a{
   color: #1d1f1d;
 }
-.fet {
+#features .box{
+  float: left;
   width: 50%;
   height: 100%;
-  margin: auto 0;
+  padding: 50px;
+  text-align: center;
+}
+#features .box1{
+ float: right;
+ width: 50%;
+ height: 100%;
+ padding: 50px;
+ text-align: center;
+
 
 }
 /* responsive */
