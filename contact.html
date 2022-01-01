@@ -12,71 +12,65 @@
       integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP"
       crossorigin="anonymous"
     />
+    <script src="js/app.js"></script>
           <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-          <header>
-                    <nav id="navbar"> 
-                    <div class="container">
-                              <h1 class="logo"><a href="index.html">28-mektep</a></h1>
-                   <ul>
-                             <li><a href="index.html" >Bas menyu</a></li>
-                             <li><a href="about.html">Maǵlıwmat</a></li>
-                             <li><a href="contact.html" class="current">Baylanıs</a></li>
-                   </ul>
-                    </div>
-                   
-          </nav>
-          </header>
+
+ <!--- Created by Asadbek Aytjanov © 2021 - 2022.  Gilt.uz team -->
+
+
+
+
+  <header id="navbar">
+                  
+    <div id="brand"><a href="index.html">28-mektep</a></div>
+    <nav>
+              <ul>
+                       <li><a href="index.html" >Bas Menyu</a></li>
+                        <li><a   href="about.html">Maǵlıwmat</a></li>
+                       <li><a  class="current" href="contact.html">Baylanıs</a></li>
+
+              </ul>
+    </nav>
+    <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+              <div class="bar1"></div>
+              <div class="bar2"></div>
+              <div class="bar3"></div>
+              <ul class="mobile-menu">
+                        <li><a href="index.html" >Bas Menyu</a></li>
+                        <li><a href="about.html">Maǵlıwmat</a></li>
+                       <li><a href="contact.html" class="current">Baylanıs</a></li>
+
+              </ul>
+    </div>
+<style>
+  body{
+    background-color: #fff;
+  }
+</style>
+</header>
         
 
                <section id="contact-form">
                        
                       <div class="container">
 
-                        <h1> <span class="text-primary">Baylanıs</span> </h1>
-                        <p>Xabarıńızdı usı jerge jazıń</p>                        </p>
-                           
-
-
-                        <form >
-                             <div class="form-group">
-                                 <label for="name">Atıńız hám familiyańız.</label>
-                                   <input type="text" name="name" id="name">                                     
-                                              </div>
-
-                                              <div class="form-group">
-                                                <label for="email">Email (Elektron pochta)</label>
-                                                  <input type="text" name="email" id="email">                                     
-                                                             </div>
-                                                         
-
-                                                             
-                                              <div class="form-group">
-                                                <label for="message">Xabarıńızdı usı jerge jazıń</label>
-                                                               <textarea name="message" id="message"></textarea>  
-                                                             </div>
-                                                      <button class="btn">Xabardı jiberiw</button>
-                                                      
-
-                        </form>
+                      <h1>Baylanıs</h1>
+                      <br>
+                      <p> Mektep administraciyası menen yamasa Sayt administraciyası menen baylanısıwdıń birewin tańlań!</p>
+                      <label for="contact">
+                        Sayt adminine jazıw   <input type="radio" name="Sayt adminine jazıw" id="web-admin"> <br>
+                        Mektep administraciyasına jazıw   <input type="radio" name="Mektep administraciyasına jazıw" id="school">
+                       </label>
                      
-                              
-                 
-                         
-                         <div id="contact-number">
-                             
-                             <h1><span class="text-primary">Telefon arqalı </span>Baylanıs: +998 61 224-42-25</h1>
-
-                         </div>
-
 </div>
 
               </section>
 
 
 
-
+ 
       
               <div class="bottom">
                 <footer id="main-footer" >

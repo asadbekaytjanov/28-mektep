@@ -12,34 +12,401 @@
       integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP"
       crossorigin="anonymous"
     />
-          <link rel="stylesheet" href="css/style.css">
+    <script src="js/app.js"></script>  
+    
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-          <header>
-                    <nav id="navbar"> 
-                    <div class="container">
-                              <h1 class="logo"><a href="index.html">28-mektep</a></h1>
-                   <ul>
-                             <li><a href="index.html" >Bas menyu</a></li>
-                             <li><a href="#" class="current">Maǵlıwmat</a></li>
-                             <li><a href="contact.html">Baylanıs</a></li>
-                   </ul>
-                    </div>
-                   
-          </nav>
-          </header>
+
+ <!--- Created by Asadbek Aytjanov © 2021 - 2022.  Gilt.uz team -->
+
+
+
+  <header id="navbar">
+                  
+    <div id="brand"><a href="index.html">28-mektep</a></div>
+    <nav>
+              <ul>
+                       <li><a href="index.html" >Bas Menyu</a></li>
+                        <li><a  class="current" href="about.html">Maǵlıwmat</a></li>
+                       <li><a href="contact.html">Baylanıs</a></li>
+
+              </ul>
+    </nav>
+    <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+              <div class="bar1"></div>
+              <div class="bar2"></div>
+              <div class="bar3"></div>
+              <ul class="mobile-menu">
+                        <li><a href="index.html">Bas Menyu</a></li>
+                        <li><a href="about.html" class="current">Maǵlıwmat</a></li>
+                       <li><a href="contact.html">Baylanıs</a></li>
+
+              </ul>
+    </div>
+<style>
+  .container{
+    padding: 6px;
+    text-align: center;
+  }
+  .container button {
+    text-align: center;
+  }
+  body{
+    background-color: #fff;}
+  #about-info  p, #about-text p {
+      text-indent: 40px;
+  text-align: center;
+  padding-top: 10px;
+  font-size: 23px;
+    }
+  
+  
+  .container h1 {
+    text-align: center;
+  }
+</style>
+</header>
           <section id="about-info" class="bg-light">
             <div class="container">
               <div class="info-right">
-                <img src="img/28-mektep1.jpg" alt="Mektep fotos">
+                <img src="img/28-mektep.jpg" alt="Mektep fotosı" width="999" height="500" >
               </div>
-              <div class="info-left">
-                <h1 >
-                  <span class="text-primary">Mektep</span>
+              <div class="container">
+                <h1 style="text-align: center;" >
+                  <span  class="text-primary">Mektep</span>
                   haqqında
                 </h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, corporis.</p>
-                </div>
+            <p id="about-text">
+              
+Nókis qalalıq 28-sanlı mektep jámááti qalalıq xalıq bilimlendiriw bólimi menen birlikte mektepte oqıw-tárbiya jumısınıń sapasın jetilistiriwde bir qansha nátiyjeli jumıslardı atqardı. <br> Ǵárezsiz Ózbekstan Respublikası, Suverenli Qaraqalpaqstan Respublikasınıń «Bilimlendiriw Nızamlarınıń» qabıl etiliwi bilimlendiriw salasında elewli ózgerislerge, jańa baslamalarǵa jol saldı… <br>
+Oqıw tárbiya jumıslarındaǵı jetiskenlikleri, jańa baslamları menen kózge túse baslaǵan bul mekteptiń dáslepki qádemleri 1978-1979 oqıw jılında Ashshı kól janındaǵı «Juldızsha» pioner lageri jayında ashılǵan baslawısh klasslardan baslanadı. Bul baslawısh klasslardıń 3-klasında 87 oqıwshı boldı. Dáslepki muǵallimler bolıp Muratova A, Palwaniyazova R, Axımbetova B jumıs islep basladı. Oqıw bólmeleri tar hám tómen jaratılǵan edi. Soǵan qaramastan jiberilgen muǵallimler úlken sheberlik kórsetip, oqıwshı kollektivin dúzdi. Olarǵa tıyanaqlı bilimler berdi. <br>
+1986 jılı 2-yanvar`da (házirgi 40-mektep imaratında) 28-sanlı mektebi ashılıp,  bul dáwir ishinde mektepte 34 klass bolıp, olarda 642 oqıwshı oqıp bilim ala basladı. Al pedagogikalıq jámááti 47 muǵallim boldı. Direktorı Dosnazarova Shaxsanem bolıp tastıyıqlandı. <br>
+Aymaq turǵınlarınıń tez pát penen ósiwi kóp oqıwshıǵa arnalǵan taza úlgidegi mektep jayın salıwǵa talap etti. <br>
+42 klass bólmesine, 1568 orınǵa mólsherlengen jańa úlgidegi mektep 1987-jılı paydalanıwǵa berildi.
+
+                 </p>
+                 <hr> <br>
+                 <img src="img/Ashiliw maresimi.png" alt="Mektep ashılıw máresimi." width="100%" height="100%"> <br>
+               <p>	
+                (1987-jılı 1-sentyabr kúni jańa mekteptiń ashılıw saltanatlı keshesinen kórinis. Ashılıw keshesinde SU-2 mákemesiniń baslıǵı Axanov, Nókis qalalıq partiya komiteti xatkeri, mektep direktorı Shaxsanem Dosnazarovaǵa mektep giltin tapsırmaqta).
+                </p>
+                <br>
+                
+                <img src="img/Mektep pedagoglar jámaati.png" alt="Mektep pedagoglar jámaati" width="100%" height="100%" >
+               
+                <br>
+                <p>(1987-jılı mektep pedagog jámááti)</p>
+                <br>
+                <p>Mektep tipovoy tipte salınǵan bolıp jabıq sport zalına, oqıwshılar asxanasına, májilisler zalına, IETT oqıw bolmesi EEM menen támiyinlendi. Bunnan basqa fizika laboratoriya oqıw bólmeleri ásbap-úskeneler menen, ximiya-biologiya laboratoriya bólmeleri ásbap-úskeneler menen, inglis tili páni boyınsha lingafon úskeneleri menen támiyinlendi hám oqıw protsesine engizildi.
+                  Oqıw 1-sentyabr`den usı taza mektep imaratında baslandı hám oqıw 1 mezgilde shólkemlestirilip 54 klass boldı hám 1010 oqıwshı bilim aldı.
+           </p>
+                     <br>
+                   
+                     <img src="img/Sońǵı qońıraw 1989.png" alt="1989 –jılı mektepte sońǵı qońıraw keshesinen kórinis" width="100%" height="100%">
+               
+                     <br>
+                   <p>(1989 –jılı mektepte sońǵı qońırıw keshesinen kórinis)</p>
+                   <br>
+                   <p>
+                    Usı dáwirlerde mektepte oqıw hám tárbiya jumıslarına basshılıq etiwde direktor orınbasarlarınan Beketov B tariyx páni muǵallimi, Ibadullaev F inglis tili páni muǵallimi, Abdijamilov J rus tili páni muǵallimi xızmetler atqardı.
+                    </p>
+                    <br>
+                    <p>1987-1988 oqıw jılında mektepti eń birinshi ret 10-klasstı 27 oqıwshı pitkerdi.</p>
+                    <br>
+                    <p>1988-jıl sentyabr ayınan baslap mektep direktorı etip fizika páni muǵallimi (oqıw óndirislik kanbinatında direktor orınbasarı lawazımında islegen) Shamuratov A tastıyıqlandı. </p>
+                    
+                    <p>Mekteptegi oqıw tárbiya jumıslarınıń belgili bir sistemaǵa túsip, jumıs nátiyjeleriniń «Oraq-balǵa» aymaǵında, qala hám Respublika kóleminde kórine baslawında mektepti kadr menen támiyinlewde qalalıq xalıq bilimlendiriw bóliminiń 1989-1990 jıllardaǵı qararları úlken áhmiyeke iye boldı. Usı qarar tiykarında mektepke tájiriybeli, bilimli qániygeler jiberile basladı. Mektep hákimshiliginiń quramı ózgertildi.</p>
+                    <p>Miynet tártibin ornatıw, bir tutas miynet kollektivin qáliplestiriw, sol arqalı oqıtıw sapasın arttırıw boyınsha mektep basshıları kóp kúsh hám shólkemlestiriwshilik uqıplılıǵın kórsetti.</p>
+                    <p>Mektep direktorı A Shamuratov, direktordıń oqıw isleri  boyınsha orınbasarları Q. Kaliev, F Ibadullaev,   B. Axımbetova jumıslardı talap dárejesinde jobalastırıwǵa, onıń orınlanıw barısın qadaǵalawǵa úlken dıqqat  qarata bildi.</p>
+               <p>Oqıtıwdıń kabinetlik sisteması iske túsirildi. Pán kabinetleri ashılıp, jumısları jobalastırıldı, olar oqıtıwdıń kórgizbe hám texnikalıq quralları menen tolıqtırıla basladı. Joqarı talapqa juwap beretuǵınday 40 pán kabineti shólkemlestirildi.</p>
+               <p>Muǵallimler qatarına isker, talapshań, bilimli muǵallimler shaqırıldı. Olardan ximiya-biologiya boyınsha Mamutova T, matematika páni muǵallimi Palwaniyazova R, fizika páni muǵallimleri Qáliev Q, Alieva P ózleriniń jumıslar menen oqıwshı, ata-ana, muǵallimler arasında abıroyǵa erisip ketti</p>
+               <p>Muǵállimler hám oqıwshılar baslaması menen mektep dógeregin kógallandırıw jumısları qolǵa alındı. Matematika páni muǵallimi Qáliev M ayrıqsha pidakárlik miynet nátiyjesinde mektep xızmetkeri Esirkegenov M birlikte mektep baǵı shólkemlestirildi.</p>
+               <p>A Shamuratov basshılıq etken dáwir ishinde mektep jámááti hám oqıwshılar tárepinen kóp jetiskenliklerge eristi. Pán olimpidalarında qala hám respublika kóleminde joqarı orınlardı alıwǵa, sanaat bayramlarında erisken tabısları, respublika kóleminde járiyalanǵan muǵallimlerdiń is tájiriybeleri úyrenildi. Bul muǵallimlerden joqarı kategoriyalı fizika páni muǵallimi Qaliev Muxambetqaziydiń «Atalar sózi aqıldıń kózi» dúrkininen «Biz qandaymız» jarıs sabaǵı, birinshi kategoriyalı matematika páni muǵallimi Jaylıbaeva Aniypanıń «Tuwındı hám onıń qollanılıwı» temasındaǵı ushırasıw sabaǵı, joqarı kategoriyalı fizika páni muǵallimi Alieva Patpanıń «Rentgen nurları» temasındaǵı baspa sóz konferentsiya sabaǵı, joqarı kategoriyalı matematika páni muǵallimi Palwaniyazova Rayxannıń «Ziyrekler, tapqırlar hám shaqqanlar» jarısın ótkeriw sabaǵı,  birinshi kategoriyalı fizika páni muǵallimi Axımbetova Biybayımnıń «Baslawısh klasslarda pán hápteligin ótkeriw» sabaǵı, joqarı kategoriyalı qaraqalpaq tili hám ádebiyatı páni muǵallimi Aytmuratova Sulıwxannıń «Atlıq sóz shaqabı boyınsha 5-klassta klasstan tıs háptelik ótkeriw» sabaǵı qala hám respublika kóleminde is tájiyriybeleri úyrenildi.</p>
+               <p>Usınday is tájiriybege bay muǵallimler óz bilimlerin oqıwshılarǵa beriw menen birge jas pedagog qániygelerge óz is tájiriybelerin úyretiw menen birge kóp shákirtlerdi tayarlap shıǵardı</p>
+               <p>Mektep pitkeriwshileri usı jıllar ishinde joqarı oqıw orınlarına kiriw kórsetkishleri qala hám respublika kóleminde eń joqarı orınlarda boldı.</p>
+               <br>
+               <h1 style="text-align: center;"> Mektepke basshılıq etken direktorlar haqqında maǵlıwmatlar</h1>
+               <br>
+               <div id="img-left"><img src="img/Dosnazarova Shaxsanem.png" alt="Dosnazarova Shaxsanem" width="300"></div>
+               <p>Dosnazarova Shaxsenem Jumashovna 1949 jılı Shımbay royonında tuwılǵan. 1966 jılı Qaraqalpaq mámleketlik pedagogikalıq institutınıń  Est-fak fakul`tetine oqıwǵa kirip, 1971-jılı tamamlaǵan. Miynet jolın Qaraqalpaqstannıń 40 jıllıǵı mektebinde muǵallim bolıp islewden baslaǵan. 1979-jılı Oraq balǵa elatındaǵı 4 jıllıq mektebine basshı etip saylanǵan. 1985-jılı usı elattaǵı 8 jıllıq mektebine mektep direktorı bolıp bekitilgen. Son 1987-jılı mekteptiń taza imaratı paydalanıwǵa berilgennen soń usı mektepke 1988 jılǵa shekem basshılıq etip keldi.</p>
+              <br> <div class="clr"></div> <br>
+              <div id="img-left" s><img src="img/Shamuratov Aytbay.png" alt="Shamuratov Aytbay"  width="300"></div>
+              <br>
+              <p>1988 jıldıń 28-iyun` kúninen baslap mektep direktorı bolıp Shamuratov Aytbay tastıyıqlandı. Shamuratov Aytbay 1943-jılı Kegeyli rayonınıń Kuybıshev atındaǵı sovxozında tuwılǵan. 1962-jılı Qaraqalpaq Mámleketlik pedagogikalıq institutınıń fizika-matematika fakul`tetine oqıwǵa kirip 1970-jılı usı fakul`tetti tamamlaǵan. Miynet jolın Kegeyli rayonlıq wu-sanlı orta mektepte fizika-matematika páni muǵallim bolıp jumıs islep basladı. 1975-jılı Nókis qalalıq bilimlendiriw bóliminde metodist hám i-sanlı orta mektebinde oqıw isleri boyınsha direktor orınbasarı lawazımında isledi. 1-sanlı oqıw óndirislik kombinatında direktordıń orınbasarı lawazımında jumıslar isledi.</p>  
+              <p>Shamuratov Aytbay  mektepke basshılıq etken dáwirleri ishinde mektepte kóp ózgerisler jetiskenlikler boldı. Mektepke eń is tájiriybesi joqarı bolǵan tájiriybeli muǵallimler jumısqa qabıl etilip, mektepte oqıwshılarǵa bilim beriw sapası joqarı dárejesine jetti. Mektep oqıwshıları qalalıq, respublikalıq pán olimpiadalarında joqarı kórsetkishli orınlardı iyeledi. Shamuratov Aytbay  2004 jılǵa shekem mektepke basshılıq etip keldi hám házirgi waqıtta miynet dem alısında.</p>
+               <div class="clr"></div> <br>
+               <div id="img-left"><img src="img/Alieva Patpa.png" alt="Alieva Patpa" width="300"></div>
+               <br>
+               <p>Alieva Patpa Aytmuratovna 1962-jılı Shımbay rayonı Keńes sovxozında tuwılǵan. 1979 jılı Nókis mámleketlik universitetiniń fizika fakultetine oqıwǵa kirip 1984 –jılı usı fakultetti tabıslı tamamlaǵan.</p>
+               <p>Miynet jolın Nókis qalasındaǵı 12-sanlı orta mektepte fizika páni muǵallimi bolıp jumıs islewden baslaǵan.  1991-jılı 11-sanlı ulıwma orta bilim beriw mektebine fizika páni  muǵallimi bolıp jumısqa ornalastı. Mektepke kelgen kúnlerinen baslap , óziniń talapshańlıǵı menen kózge túsip fizika –matematika metod birlespesin basqardı hám 1994-1995 jıldan baslap qániygelestirilgen klasslarǵa fizika páninen sabaqlar berip basladı. 1998–jılı Qaraqalpaqstan Respublikası Xalıq bilimlendiriw aǵlası kókirek nıshanı menen sıylıqlandı. 2002-jıldan baslap mektepte direktordıń oqıw isleri boyınsha orınbasarı lawazımında jumıslar isledi.</p>
+               <p>2002 jıldıń aprel ayınan baslap mektep direktorı lawazımında isley basladı. Alieva Patpa mektepti basqarǵan dáwirleri ishinde mektep muǵallimler hám oqıwshıları tárepinen kóp jetiskenlikler boldı. Qalalıq hám respublikalıq kólemde ótkerilgen pán olimpiadalarında joqarı kórsetkishlerge erisip keldi. P Alieva 2007 jıl aprel ayına shekem mektepti basqarıp keldi.</p>
+               <p>2007-jıldıń may ayınan baslap mektep direktorı bolıp Gúlparshın Rızaeva bekitildi hám bir jıl dawamında bir qansha jumıslar atqarıp keldi</p>
+               <div class="clr"></div>
+               <br>
+               <div id="img-left"><img src="img/Bekimbetova Gúlnara.png" width="300" alt="Bekimbetova Gúlnara"></div>
+                  <p>2008-jıldıń may ayınan baslap mektep basqarıwına Gúlnara Bekimbetova tastıyıqlandı.  G Bekimbetova mektepti basqarǵan dáwirleri ishinde mektep qayta iri ońlaw jumısları ótkerildi. Mektepke jańadan zamanagóy laboratoriya ásbap úskeneleri, oqıwshı partaları, oqıw mebelleri menen úskenelenip oqıw protsessine engizildi.  Mektepte muǵallimler hám oqıwshılar tárepinen kóp jetiskenliklerge erisilip atır. Jıldıń eń jaqsı pán muǵallimi kórik tańlawında qazaq tili páni muǵallimi Izbasarova Nina, geografiya páni muǵallimi G Saparniyazova, matematika páni muǵallimi M Tóreniyazova, biologiya páninen R Eshniyazova h.t.b. pán olimpiadalarında qala kóleminde ximiya páninen Dawletova Jamila birinshi orındı, sızıw páninen Qayıpbergenova Perida birinshi orındı, informatika páninen Manibekov Miyirbek birinshi orındı, respublika kóleminde informatika páninen Manibekov Miyirbek ekinshi orındı iyeledi.
+                    Bunnan basqa da qalalıq hám respublikalıq kóleminde ótkerilip atırǵan oqıwshılardıń «Balalar báhári» festivalında birinshi orındı iyeledi.
+                    Házirgi waqıtta mektepte joqarı kategoriyalı 9, birinshi kategoriyalı 12, ekinshi kategoriyalı 77 qániyge 79 muǵallimler pidayı xızmetler kórsetip atır.
+                    Kóp jıllardan berli miynet etip atırǵan «Qaraqalpaqstan Respublikası Xalıq bilimlendiriw aǵlası» ataǵına iye muǵallimler xızmet etip kelmekte.
+                    </p>
+                    <div class="clr"></div>
+                    <br>
+                    <hr>
+                    <br>
+                    <div id="img-left"><img src="img/Bekimbetova Gúlnara.png" alt="Bekimbetova Gúlnara" width="300"></div>
+                       <h1>BEKIMBETOVA GÚLNARA XOJAMURATOVNA</h1>
+                       <br>
+                       <p>Mektep direktorı</p>
+                       <p>«Xalıq bilimlendiriw aǵlası»</p>
+                       <p>10.03.1955 jıl tuwılǵan.</p>
+                       <p>Nókis mámleketlik universiteti shet tili fakultetin </p>
+                       <p>1977 jılı tamamlaǵan.</p>
+                       <p>Joqarı kategoriyalı ingliz tili páni muǵallimi.</p>
+                       <div class="clr"></div>
+                       <br>
+                       <div id="img-left">
+                         <img src="img/Ibadullaev Ferdawsi.png" alt="Ibadullaev Ferdawsi" width="300">
+                      </div> <br>
+                         <h1>IBADULLAEV FERDAWSI</h1>
+                         <br>
+                         <p>Pán muǵallimi</p>
+                         <p>qour jılı Qaraqalpaqstan Mámleketlik </p>
+                         <p>pedagogikalıq institutınıń </p>
+                         <p>shet tiller fakultetin tamamlaǵan</p>
+                         <p> joqarı kategoriyalı ingliz tili</p>
+                         <p> páni muǵallimi  </p>
+                         <p>«Xalıq bilimlendiriw aǵlası»</p>
+                      <div class="clr"></div>
+                      <br>
+                      <div id="img-left"><img src="img/Najimova Darigul.png" alt="Najimova Darigul" width="300"></div>
+                      <br>
+                      <h1>NAJIMOVA DÁRIGÚL KEŃESBAEVNA</h1>
+                      <br>
+                      <p>Pán muǵallimi</p>
+                      <p>1991-jılı Nókis mámleketlik pedagogikalıq  </p> <p> institutınıń tamamlaǵan</p>
+                      <p>Qániygeligi boyınsha birinshi kategoriyalı baslawısh 
+                       </p> <p> klass muǵallimi.</p>
+                      <p>Tájiriybe sınaw maydanshası </p>
+                       <p> boyınsha eksperimentator muǵallim.
+                       </p>
+                       <p>«Xalıq bilimlendiriw aǵlası»</p>
+                       <div class="clr"></div>
+                       <br> 
+                       <div id="img-left"><img src="img/Qidirbaeva Sara.png" alt="Qidirbaeva Sara" width="300"></div>
+                       <br> 
+                       <h1>QIDIRBAEVA SARA QUWANIShBAEVNA</h1>
+                       <br>
+                       <p>Pán muǵallimi</p>
+                       <p>1979 – jılı Xojeli pedagogikalıq </p> <p>uchilishesin tamamlaǵan.</p>
+                       <p>Qániygeligi boyınsha ekinshi kategoriyalı
+                       </p>  <p> baslawısh
+                        klass muǵallimi
+                       </p>
+                       <p>«Xalıq bililendiriw aǵlası»</p>
+                       <div class="clr"></div>
+                       <br>
+                       <div id="img-left"><img src="img/Daniyarova Mariya.png" alt="Daniyarova Mariya" width="300"></div>
+                       <br>
+                       <h1>DANIYAROVA MARIYA OSPANOVNA</h1>
+                       <br>
+                       <p>Pán muǵallimi</p>
+                       <p>1989-jılı Nókis mámleketlik universitetiniń rus </p>
+                       <p>tili filologiyası fakul`tetin tamamlaǵan.</p>
+                       <p>№ániygeligi boyınsha joqarı kategoriyalı rus tili </p>
+                       <p>hám ádebiyatı páni muǵallimi</p>
+                       <p>«Xalıq bilimlendiriw aǵlası»</p>
+                       <div class="clr"></div>
+                       <br>
+                       <div id="img-left"><img src="img/Allaniyazova Perdexan.png" alt="Allaniyazova Perdexan" width="300"></div>
+                       <br>
+                       <h1>ALLANIYAZOVA PERDEXAN BAYNIYAZOVNA</h1>
+                       <br>
+                       <p>Pán muǵallimi</p>
+                       <p>qoie-jılı Nókis pedagogikalıq uchilishesin </p>
+                      <p>tamamlaǵan.</p>
+                      <p>Qániygeligi boyınsha ekinshi kategoriyalı </p>
+                      <p>baslawısh klass </p>
+                      <p>muǵallimi.</p>
+                      <p>«Xalıq bilimlendiriw aǵlası»</p>
+                      <div class="clr"></div>
+                      <br>
+                      <div id="img-left"><img src="img/Ismailova Altinay.png" alt="Ismailova Altinay" width="300"></div>
+                       <br>
+                       <h1>ISMAYLOVA ALTINAY ISMAYLOVNA</h1>
+                       <p>qoo0-jılı Nókis mámleketlik universitetiniń </p>
+                       <p>№araqalpaq tili filologiyası fakul`tetin  </p>
+                       <p>tamamlaǵan.
+                        </p>
+                        <p>№ániygeligi boyınsha birinshi kategoriyalı qaraqalpaq tili </p>
+                     <p>hám ádebiyatı páni muǵllimi.
+                      Oqıw hám tárbiya isleri boyınsha </p>
+                      <p>direktor orınbasarı.</p>
+                      <p>«Xalıq bilimlendiriw aǵlası»</p>
+                    
+                        <br>
+                      
+                      <div class="clr"></div>
+                       <br>
+
+                      <div id="img-left"><img src="img/Xalmurtaova Palsanem.png" alt="Xalmuratova Palsanem" width="300"> </div>
+                      <br>
+                      <h1>XALMURATOVA PALSANEM EREJEPOVNA</h1>
+                  <br> 
+                  <p>qoiy-jılı Nókis mámleketlik universitetiniń </p>
+                   <p>Qaraqalpaq tili filologiyası fakul`tetin </p>
+                   <p>tamamlaǵan.</p>
+                   <p>Qániygeligi boyınsha joqarı kategoriyalı </p>
+                   <p>qaraqalpaq tili hám ádebiyatı páni muǵallimi.</p>
+                   <p>Qaraqalpaq tili hám adebiyatı páni boyınsha </p>
+                   <p>tájiriybe sınaw maydanshası eksperimentator muǵallimi </p>
+                  <p>«Xalıq bilimlendiriw aǵlası»</p>
+                  <div class="clr"></div>
+                  <br>
+                  <div id="img-left"><img src="img/Atasheva Tursingul.png" alt="Atasheva Tursingul" width="300"></div>
+                  <br>
+                  <h1>ATAShEVA TURSINGUL ERALIEVNA</h1>
+                  <br>
+                  <p>Pán muǵallimi</p>
+                  <p>qoiw-jılı TGPI tamamlaǵan, joqarı maǵlıwmatlı,</p>
+                  <p>joqarı kategoriyalı rus tili hám ádebiyatı páni muǵallimi.</p>
+                  <p>«Xalıq bilimlendiriw aǵlası»</p>
+                  <div class="clr"></div>
+                  <br>
+                  <hr>
+                  <br>
+                  <h1>28-sanlı fizika panine qaniygelestirilgen mektebine basshılıq etken direktordıń oqıw isleri boyınsha direktor orınbasarları.</h1>
+                  <br>
+                  <div id="img-left"><img src="img/Beketov Jumaniyaz.png" alt="Beketov Jumaniyaz" width="300"></div>
+                  <p> <b>Beketov Jumaniyaz</b> qoeq-jılı Shımbay rayonında tuwılǵan. Shımbay pedagogikalıq uchilishesin qote-jılı pitkergen, qoyy jılı №araqalpaq pedagogikalıq institutınıń tariyx fakul`tetin pitkergen. Miynet jolın Shımbay rayonlıq Keńes savxozında jaylasqan orta bilim beriw mektebinen baslaǵan. Kegeyli rayonlıq Xalqabad qalasında jaylasqan orta mektebinde, Nókis qalalıq qi-sanlı mektepte, wy-mektepte tariyx páni hám direktordıń oqıw isleri boyınsha direktor oırnbasarı lawazımlarında islegen. </p>
+                  <p>B Beketov qoiy-qoo0 jıllar aralıǵında usı mektepte direktordıń oqıw isleri boyınsha orınbasarı lawazımında jumıslar islep mektep muǵallimlerine kóplegen pedagogikalıq járdemler berip oqıtıwdıń sapasına hám nátiyjeligin arttırıwda miynetler atqarıp keldi. qoit jılı Joqarǵı keńes pármanı menen «Miynet veteranı» ataǵı berildi.</p>
+                  <div class="clr"></div>
+                  <br>
+                  <div id="img-left"><img src="img/Ibadullaev Ferdawsi 2.png" alt="Ibadullaev  Ferdawsi" width="300"></div>
+                      <p><b>Ibadullaev Ferdawsi </b> qoiy-w00q-jıllar aralıǵında inglis tili páni muǵallimi bolıwı menen birge direktordıń oqıw isleri boyınsha orınbasarı lawazımında jumıslar islep keldi. Mekteptiń barlıq esabat jumısların islew menen birge pedagog xızmetkerlerge metodikalıq járdemler beriw, olarǵa jol jobalar berip barıwda tınbay miynetler atqarıp keldi. óziniń oqıtatuǵın páni boyınsha «Ustaz gazetasında» inglis tili páni boyınsha (hár bir sanında) test materialların járiyalap kelmekte.</p>
+                      <div class="clr"></div>
+                      <br>
+                      <div id="img-left"><img src="img/B Aximbetova.png" alt="B Aximbetova" width="300"></div>
+                      <br>
+                      <p>qoiy-qoo0-jıl aralıǵında mekteptiń baslawısh klassına direktordıń oqıw isleri boyınsha orınbasarı lawazımında <b> B Axımbetova </b> islep, baslawısh klass muǵallimlerine metodikalıq jaqtan kóp járdemler berip keldi. Mekteptiń jámiyetlik jumıslarına belsendilik penen qatnasıp úlken abıroyǵa iye boldı. B Axımbetovanıń «Baslawısh klasslarda pán hápteligin ótkeriw» atmasındaǵı is tájiriybesi qala hám respublika kóleminde úyrenildi.</p>
+                      <div class="clr"></div>
+                      <br>
+                      <div id="img-left"><img src="img/Kaliev Muxammedqazi.png" alt="Kaliev Muxammedqazi" width="300"></div>
+                      <br>
+                      <p><b> Kaliev Muxammedqazi</b> qou0-jılı №araqalpaq mámleketlik pedagogikalıq institutınıń fizika-matematika fakul`tetin tabıslı tamamlap Nókis qalasındaǵı u-sanlı respublikalıq mektep-internatında fizika páni muǵallimi hám tárbiyashısı bolıwdan miynet jolın basladı. </p>
+                      <p>qouw-qouy-jıllları aralıǵında usı mektepte direktordıń oqıw-tárbiya isleri boyınsha orınbasarı hám fizika páni muǵallimi bolıp isledi. qouy-qoii-jılları aralıǵında Nókis qalalıq xalıq bilimlendiriw bóliminde mektepler boyınsha qadaǵalawshı inspektor lawazımında issledi. qoii-qooi-jılları aralıǵında Nókis qalalıq wi-sanlı orta mektebinde mektep direktorınıń oqıw isleri boyınsha orınbasarı lawazımında isledi.</p>
+                      <p>Mektepte oqıw tárbiya jumısların jetilistiriw hám sabaqtıń sapasın arttırıwdıń jolların, usılların izlew, juwmaqlastırıw menen shuǵıllandı hám ayırım máselelerdi sheshiwdiń metodikalıq táreplerin islep shıqtı. Olardan «Sabaqlarǵa analiz jasaw» úlgisi, «Jeke dóretiwshilik jumıstı jobalastırıw» úlgisin, fizika páninen klasstan tıs jumıslardıń dástúriy emes túrlerin shólkemlestiriw jolların metodikalıq jaqtan islep shıqtı.</p>
+                      <p>Islegen miyetlerine qaray qoii jılı «Ózbekstan xalıq bilimlendiriw aǵlası» nıshanı, qoio- jılı «Metodist-muǵallim» ataǵı berildi. Házirgi waqıtta miynet dem alısında.</p>
+                      <div class="clr"> </div>
+                      <br>
+                      <div id="img-left " ><img src="img/Matchanov Batirbay.png" alt="Matchanov Batirbay" width="300"></div>
+                      <br>
+                      <p> <b>Matchanov Batırbay Madreyim ulı</b> qorr-jılı Nókis qalasında tuwılǵan. qoyw-jılı Qaraqalpaq mámleketlik pedagogikalıq institutınıń fizika-matematika fakul`tetine oqıwǵa kirip qou0-jılı tabıslı tamamladı. óz qániygeli boyınsha Nókis qalasındaǵı r-sanlı orta mektepte muǵallim bolıp miynet jolın baslaǵan. qoue-jılı Qaraqalpaqstan Respublikası bilimlendiriw ministrliginde inspektor lawazımında, qooe-jıldan baslap Nókis qalasındaǵı wi-sanlı mektebinde oqıw tárbiya isleri boyınsha direktor orınbasarı bolıp jumısqa qabıl etilgen. Bul lawazımda qooo-jılǵa shekem islep, bunnan soń mektepte miynet páni hám kásipke baǵdarlaw páni boyınsha muǵallim bolıp jumıslar isledi. *ázirgi waqıtta húrmetli miynet dem alısında.  </p>
+                      <div class="clr"></div>
+                      <br>
+                         <div id="img-left"><img src="img/Xojanov Polat.png" alt="Xojanov Polat" width="300"></div>
+                          <br>
+                          <p> <b> Xojanov Polat Kewnimjaevich </b> qoow-jılı Qaraqalpaq mámleketlik universitetiniń matematika fakul`tetin tabıslı tamamlap usı jıldan baslap Nókis qalalıq wi-sanlı orta mektebinde informatika hám matematika páni muǵallimi bolıp jumıs islewden basladı. Muǵallim bolıp islegen dáwirinde mektep muǵallimleri arasında úlken abıroyǵa iye bolıp, oqıwshılarǵa bilim sırların úyretiwde úlken jetiskenliklerge erisip keldi.</p>
+                          <p>qoou-jıldan baslap w00y-jılǵa shekemgi dáwir ishinde mektep direktorınıń oqıw hám tárbiya isleri boyınsha orınbasarı lawazımında islep keldi. Direktor orınbasarı lawazımında islegen dawirleri ishinde mektep normativ hújjetleri tiykarında mektep is qaǵazların júriptip keldi.</p>
+                          <div class="clr"></div>
+                          <br>
+                          <div id="img-left"><img src="img/Qartjanova Aqjúginis.png" alt="Qartjanova Aqjúginis" width="300"></div>
+                          <br>
+                          <p> <b>Qartjanova Aqjúginis</b> mektep direktorınıń oqıw hám tárbiya isleri boyınsha orınbasarı lawazımında qooo-w00w-jıllar aralıǵında isledi. Islegen dawirleri ishinde muǵallimlerge metodikalıq jaqtan usınıslar hám pikirler beriwde ustazlıq etip keldi. </p>
+                          <div class="clr"></div>
+                          <br>
+                          <div id="img-left"><img src="img/Ábdijamilov Jańabay.png" alt="Ábdijamilov Jańabay" width="300"></div>
+                          <br>
+                          <p><b>Abdijamilov Jańabay</b> rus tili hám ádebiyatı páni muǵalimi qoiy-qoio-jıllar aralıǵında mektepte ruwxıy aǵartıwshılıq hám tárbiya isleri boyınsha direktor orınbasarı lawazımında jumıslar islep keldi. Islegen dáwirleri waqtında mektep oqıw hám tárbiya jumıslarına belsene qatnasıp jaslardı tárbiyalawda óz kúsh jigerin jumsadı. Lawazımlıq jumıslar menen birge muǵallimshilik kásibinede sadıq bolıp oqıwshılarǵa rus tili sırların tereńnen úyretip bardı.
+                                                                         </p>
+                    
+
+                      <div class="clr"></div>
+                      <br>
+                      <div id="img-left"><img src="img/Tanirbergenova Gúlxan.png" alt="Táńirbergenova Gúlxan" width="300"></div>
+                      <br>
+                      <p><b>Tanirbergenova Gúlxan</b> shet tili páni muǵallimi qoio-qoor jıllar aralıǵında mektepte ruwxıy aǵartıwshılıq hám tárbiya isleri boyınsha direktor orınbasarı lawazımında islep keldi. Mektepte islegen dawirleri waqtında oqıwshılardı watan súyiwshilikke tárbiyalawda pidayı xızmetler atqarıp keldi. Oqıwshılardı úlkemizdiń tariyxıy orınlarına aparıp kórsetiwde, máselen Samarkand qalasına, Xiva qalasına sayaxatqa aparıp tanıstırıwda aytarlıqtay jumıslar islep keldi.              </p>
+                       <div class="clr"></div>              
+                       <br>
+                     
+                       <img style="text-align: center;" src="img/Xiva.png" alt="Xiva qalasına sayaxatqa barǵan dáwirinen kórinis" width="100%" height="100%" ></div>                                                                                     <p>
+                      
+                      
+                      <p>  <b>Xiva qalasına sayaxatqa barǵan dáwirinen kórinis</b>    </p>                                                                                                                                                                                                                                              
+                                     <div class="clr"></div>
+                                     <br>
+                                     <div id="img-left"><img src="img/Joldasov Jańabay.png" alt="Joldasov Jańabay" width="300"></div> 
+                                     <br>
+                                     <p> <b> Joldasov Jańabay </b> tariyx páni muǵallimi qoio-qoor oqıw jıllarında mektepte ruwxıylıq aǵartıwshılıq hám tárbiya isleri boyınsha direktor orınbasarı lawazımında islep keldi. Islegen dawirleri waqtında mektep rawajlanıwına qosqan úlesleri úlken. Mektep oqıwshıların paylı miynetke úyretiwde joba tiykarında jumıslar alıp bardı. Lawazımlıq jumısların atqarıw menen birge tariyx páni muǵllimlerine metodikalıq jaqtan usınıslar, járdemler beriwde ustazlıq etip keldi.</p>    
+                                              <div class="clr"></div>
+                                              <br>
+                                              <div id="img-left"><img src="img/Aytmuratova Sulıwxan.png" alt="Aytmuratova Sulıwxan" width="300"></div>
+                                             <br>
+                                             <p> <b> Aytmuratova Sulıwxan </b> qaraqalpaq tili hám ádebiyatı páni muǵallimi kóp jıllıq miynet stajına iye tájiriybeli muǵallim. Muǵallimshilik etiw menen birge qoou-qooo –oqıw jılları aralıǵında mektepte ruwxıy aǵartıwshılıq hám tárbiya isleri boyınsha direktorı orınbasarı lawazımında islep keldi. Lawazımlıq jumıslardı atqarǵan dawirleri waqtında jaslardı watan súyiwshilik ruwxında tárbiyalawda óz úlesin qostı. Páni boyınsha qaraqalpaq tili hám ádebiyatı páni muǵallimlerine ustazlıq ettti. №ala hám respublika kóleminde «Atlıq sóz shaqabı boyınsha besinshi klassta klasstan tıs háptelik ótkeriw» is tájiriybesi úyrenildi.</p>   
+                                              <br>
+                                              <hr>
+                                              <br>
+                                              <p>Usı dáwirler ishinde bunnan basqada pedagog xızmetkerler mektep rawajlanıwına ózleriniń kóp miynetlerin sińdirdi. Atap aytqanda qooy-w000-jıllar aralıǵında tariyx páni muǵallimi Nietullaev Oralbay direktordıń ruwxıy aǵartıwshılıq hám tárbiya isleri boyınsha orınbasarı lawazımında pidayı xızmetler atqardı.</p>
+                                            <p> <b> Saparniyazova Rısgúl </b>qoit-jılı TRPIRYaiL oqıw ornınıń rus filologiyası fakul`tetiniń rus tili hám ádebiyatı qániygeligin tamamlaǵan. *ázirgi kúnde rus tili hám ádebiyatı páni muǵallimi,  w000-jıldan baslap pán muǵallim bolıwı menen birge direktordıń ruwxıylıq aǵartıwshılıq hám tárbiya isleri boyınsha orınbasarı lawazımında islep kiyatır.Miynet etken dáwirleri ishinde mektep bilimlendiriwine hám rawajlanıwına qosqan úlesleri úlken. Mektep muǵallimler jámááti hám oqıwshıları tárepinen qolǵa kirgizgen tabısları kóp. *ár jılı qala, respublika kólemlerinde ótkerilip atırǵan hár qıylı kórik tańlawlarda mekteptiń qolǵa kirgizip atırǵan tabısları úlken</p>
+                                           <p> <b> Bayımbetova Almagúl </b> Nókis mámleketlik universitetiniń matematika fakul`tetin qoiy-jılı tabıslı tamamlaǵan. Mektepte matematika páni muǵallimi xızmetin atqarıw menen birge oqıw hám tárbiya isleri boyınsha direktor orınbasarı lawazımında islep atır. Lawazımlıq jumıslarına jaqsı itibar menen qarap pán muǵallimlerine sabaq ótiwdiń jańa usıllarınan paydalanıwda usınıslar hám járdemler berip kelmekte. </p> 
+                                          <p> <b>Ismaylova Altınay</b> qoo0-jılı Nókis mámleketlik universitetiniń qaraqalpaq tili hám ádebiyatı fakul`tetin tamamlaǵan. w00w-jıldan baslap usı mektepte qaraqalpaq tili hám ádebiyatı páni muǵallimi bolıw menen birge baslawısh klassında oqıw hám tárbiya isleri boyınsha direktor orınbasarı lawazımında islep kelmekte. A Ismaylova basqarǵan baslawısh klass muǵallimleri hám oqıwshıları arasında kóp jetiskenlikler bolıp atır. </p>
+                                         <p> <b> Beketov Baxtıyar </b> qoow-jılı №araqalpaq mámleketlik universtitetiniń fizika fakul`tetin tamamlaǵan. Usı jıldan baslap miynet jolın usı mektepte fizika páni muǵallimshiliginen baslaǵan. qooe-jıldan w00t-jılǵa shekem Nókis turmıs xızmeti kásip-óner kolledjinde pán muǵallimi, soń oqıw isleri boyınsha direktor orınbasarı, kásipke baǵdarlaw jumısları direktor oırnbasarı lawazımında jumıslar islep kelgen.</p> 
+                                        <p>w00t-jıldan baslap wi-sanlı mektepke fizika páni muǵallim bolıp jumısqa qabıl etilgen hám w00y-jıldan baslap direktordıń oqıw isleri boyınsha orınbasarı, w00i-jıl sentyabr` ayınan baslap direktordıń ruwxıylıq aǵartıwshılıq isleri boyınsha orınbasarı lawazımında jumıslar atqarıp kelmekte.</p>
+                                      <p> <b> Seytmuratova Dilbar </b> qoit-jılı Nókis mámleketlik universitetiniń ximiya fakul`tetin tabıslı tamamlaǵan. D Seytmuratova miynet jolın bilimlendiriw tarawında xızmet etiw menen baslaǵan. Nókis qalalıq xalıq bilimlendiriw bóliminde metodist, Nókis qalalıq i-sanlı orta mektebinde direktordıń oqıw isleri boyınsha orınbasarı lawazımlarında jumıslar atqarǵan.</p>
+                                      <p>w00t-jıldan baslap wi-sanlı mektepke ximiya páni muǵallimi bolıp jumısqa qabıl etilgen. w00u-jıldan baslap mektepte ruwxıy aǵartıwshılıq hám tárbiya isleri boyınsha direktor orınbasarı, w00i-jıldan baslap direktordıń oqıw hám tárbiya isleri boyınsha orınbasarı lawazımında islep kelmekte. Lawazımlıq jumısları menen birgelikte metod birlespe basshıları menen birgelikte oqıw protsesiniń úzliksizligine, jańa pedagogikalıq texnologiyalardı engiziwde metodikalıq járdemler bermekte. </p>
+                                     <br>
+                                     <p>Mektep basqarıwına pidayı belsene qatnasıp atırǵan ruwxıy aǵartıwshılıq hám tárbiya isleri boyınsha orınbasarları Berdanova Gúlistan, Atamuratova Dilbarlar mektep bilimlendiriwine hám rawajlanıwına óz úleslerin ayanbay qospaqta. Mektepte, qala, respublikalıq kólemde ótkerilip atırǵan hár qıylı kórik tańlawlarǵa jaqsı tayarlıqlar kórip joqarı kórsetkishlerdi qolǵa kirgizbekte</p> 
+                                   <p>w00i-w00o oqıw jılında mektebimizde ye klass bolıp bul klasslarǵa qytr oqıwshı qamtıp alınǵan. Oqıwshılarǵa bilim hám tárbiya beriwde qr0 tan aslap muǵallimler xızmet etpekte. 
+                                    Mektepte oqıwshılarǵa bilim sırların úyretiwde pidayı muǵallimlerden kóp jıllıq tájiriybege iye baslawısh klass muǵallimi Z Eshkalieva, matematika páni muǵallimi Z Erimbetova, geografiya páni muǵalimi Z Tilegenova, matematika páni muǵallimi B Bekniyazova, tariyx páni muǵallimi G Palwanova, qaraqalpaq tili hám ádebiyatı páni muǵallimi P Xalmuratova, U Xojalepesova, inglis tili páni muǵalimi F Ibadullaevlar jaqsı xızmetler etpekte. 
+                                  </p>
+                                  <br>
+                                  <h1>	Ayırım pa`nleri boyınsha qa`niygelestirilgen klasslardıń ashılıwı</h1>
+                                  <br>
+                                  <p>	Ayırım pa`nleri boyınsha qa`niygelestirilgen klasslardıń ashılıwı.
+                                    Mektebimizde ata-analar ha`m oqıwshılardın` o`tinishi boyınsha ó-9 -klasslar aralıg`ında qa`niygelestirilgen «fizika-matematika», «ximiya-biologiya» pa`nlerin teren`nen u`yrenetug`ın arnawlı klasslardı ashıw á99q-á99ń-oqıw jılında baslandı.
+                                    NQXBB nin` ǵ00ǵ-jılı sentyabr` ayının` 9-sa`nesindegi № óh/ǵ buyrıg`ına tiykarlanıp mektebimiz «fizika-matematika» pa`nlerinin` oqıtılıwı boyınsha tayanısh mektebi etip belgilendi. Usı bag`darda bul pa`nlerdin` sapalı ha`m jan`a texnologiya usılında oqıtılıwın a`melge asırıw maxsetinde mektepte arnawlı is ilajlar jobaları islep shıg`ılıp solar bayınsha jumıslar alıp barılmaqta.
+                                    ǵ00q-ǵ00ń-oqıw jılınan baslap XBM, ROMO ha`m NQXBB menen kelisilgen halda ó-9-klasslar arasında «fizika-matematika» ha`m «ximiya-biologiya» pa`nleri boyınsha qa`niygelestirilgen klasslardı ashıw boyınsha jumıslar alıp barıldı ha`m iske asırıldı. 
+                                    ǵ00ó-ǵ00ú okıu jılında ó-klasslardan matematika, ú-klasslardan matematika –fizika, w-klasslardan matematika –fizika, w-klasslardan ximiya biologiya, h-klasslardan matematika-fizika, ximiya-biologiya, 9-klasslarınan matematika –fizika, ximiya-biologiya panlerinen terenlestirilgen klasslar sholkemlestirilip ulıuma ǵǵw okıushı bolıp bull okıushılarga tajiriybeli áá mugallim sabak berip keldi.
+                                    ǵ00ú-ǵ00w j ó-klasslardan matematika, ú-klasslardan matematika –fizika, w-klasslardan matematika –fizika, w-klasslardan ximiya biologiya, h-klasslardan matematika-fizika, ximiya-biologiya, 9-klasslarınan matematika –fizika, ximiya-biologiya panlerinen terenlestirilgen klasslar sholkemlestirilip ulıuma ǵǵ9 okıushı bolıp bul okıushılarga tajiriybeli áá mugallim sabak berip keldi.
+                                    ǵ00w-ǵ00h j ó-klasslardan matematika, ú-klasslardan matematika –fizika, w-klasslardan matematika –fizika, w-klasslardan ximiya biologiya, h-klasslardan matematika-fizika, ximiya-biologiya, 9-klasslarınan matematika –fizika, ximiya-biologiya panlerinen terenlestirilgen klasslar sholkemlestirilip ulıuma ǵqń okıushı bolıp bul okıushılarga tajiriybeli áq mugallim sabak okıtıp keldi.
+                                    </p>
+                                    <br>
+                                    <h1>Pán olimpiadasınıń III -basqıshında informatika páninen Mánibekov Miyirbek Respublika kóleminde II-orındı iyeledi hám «Húrmet jarlıǵı» menen sıylıqlandı</h1>
+                                   <div class="clr"></div>
+                                   <br>
+                                   <div><img src="img/Mánibekov Miyirbek.png" alt="Mánibekov Miyirbek" width="100%" ></div>
+                                   <br>
+                                   <p> <b> 
+                                    Nokis qalaliq 28-sanli fizika pánine qániygelestirilgen  mektebinin’ 9-a  klass oqiwshisi Manibekov Miyirbek “Pa’n olimpiyadasi” jen’impazi.
+                                     </b></p>
+                                    <div class="clr"></div>
+                                    <br>
+                                    <div ><img src="img/Turimbetova Miyrigul.png" width="100%" alt="Turimbetova Miyrigul"></div>
+                                           <p> <b>
+                                            Nokis qalaliq 28-sanli fizika pánine qániygelestirilgen mektebinin’ 9-a  klass oqiwshisi Turimbaeva Miyrigul “Kompyuter sawatqanlig’i”  ko’rik tanlawi jen’impazi.
+                                          </b>  </p>
+                                                    <div class="clr"></div>
+                                         <br>
+                                         
+                                         <img src="img/mektep 2009.png" alt="28-mektep 2009-jil" width="100%" height="100%"> 
+                                         <p>Mekteptiń 2009-jıldaǵı kórinisi</p>
+                                         <div class="clr"></div>
+                                         <br>
+                                         <div ><img width="100%" src="img/Serjanova Gúlshad.png" alt="Serjanova Gúlshad "></div>
+                                                <br>
+                                                <p>Informatika páni muǵallimi Serjanova Gulshad sabaq waqtında (2009-jıl). </p>
+                                                <div class="clr"></div>
+                                                <br>
+                                                <hr>
+                                                <br>
+                                                <div class="container">
+                                                <h1>Bul tarıyxımız "shala". Egerde sizde mektebimiz tarıyxına baylanıslı bul jerge jazılmaǵan maǵlıwmat bolsa bizge múraját etiń.</h1>
+                                                 <br>      
+                                                 <a href="contact.html">  <button class="btn bg-dark" >Múraját etiw</button></a>
+                                         </div>
+                                                </div>
+
+
                
             
               
@@ -48,11 +415,6 @@
 
           <div class="clr"></div>
   
-         <section id="testimonials">
-           <div class="container">
-             <h2></h2>
-           </div>
-         </section>
             
           
           <footer id="main-footer" >
