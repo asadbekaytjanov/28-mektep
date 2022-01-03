@@ -6,6 +6,11 @@
           <meta name="viewport" content="width=device-width, initial-scale=1.0">
           <title>Baylanıs - 28-mektep</title>
           <link rel="shortcut icon" href="img/icon.ico" type="image/x-icon" />
+          <link rel="stylesheet" href="Bootstrap/css/bootstrap.css"> 
+          <script src="Bootstrap/js/jquery-3.3.1.slim.min.js"></script>
+          <script src="Bootstrap/js/popper.min.js"></script>
+          <script src="Bootstrap/js/bootstrap.js"></script>
+          <script src="Bootstrap/js/bootstrap.js"></script>
           <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
@@ -48,6 +53,11 @@
   body{
     background-color: #fff;
   }
+  @media only screen and (max-width: 800px) {
+  p {
+    text-align: center;
+  }
+  }
 </style>
 </header>
         
@@ -55,15 +65,26 @@
                <section id="contact-form">
                        
                       <div class="container">
-
-                      <h1>Baylanıs</h1>
-                      <br>
-                      <p> Mektep administraciyası menen yamasa Sayt administraciyası menen baylanısıwdıń birewin tańlań!</p>
-                      <label for="contact">
-                        Sayt adminine jazıw   <input type="radio" name="Sayt adminine jazıw" id="web-admin"> <br>
-                        Mektep administraciyasına jazıw   <input type="radio" name="Mektep administraciyasına jazıw" id="school">
-                       </label>
-                     
+                        <h1>Xabarıńızdı jazıń</h1>
+                        <form class="form-group" id="form-group" action="GET">
+                          <label for="text"></label>
+                          <input class="form-control" id="text" type="text" placeholder="Tolıq atıńız">
+                          <label for="email"></label>
+                          <input class="form-control" id="email" type="text" placeholder="Elektron pochta yamasa telefon">
+                          <label for="option" class="mt-3"></label>
+                          <select id="option" class="form-control">
+                            <option selected>Tema</option>
+                            <option value="1">Tarıyxqa qosımsha kirgiziw</option>
+                            <option value="2">Qátelik</option>
+                            <option value="3">Shaxsıy pikir</option>
+                            <option value="4">Basqa</option>
+                          </select>
+                          <label for="textarea"></label>
+                          <textarea class="form-control" rows="4" id="textarea" placeholder="Xabarıńızdı jazıń"></textarea>
+                       <br>
+                           <button type="button" class="btn bg-primary" onclick="sendFeedback();">Jiberiw</button>
+                           <br> <br>
+                        </form>
 </div>
 
               </section>
@@ -79,6 +100,22 @@
           
         </footer>
        </div>
+        <script type="text/javascript">
+          function sendFeedback(){
+          
+      
+          var text = document.getElementById('text').value;
+          var email = document.getElementById('email').value;
+          var option = document.getElementById('option').value;
+          var textarea = document.getElementById('textarea').value;
+      
         
+   
+         document.getElementById("user-name").innerHTML += document.getElementById('text').value;
+         document.getElementById("user-email").innerHTML +=  document.getElementById('email').value;
+         document.getElementById("user-option") += document.getElementById('option').value;
+         document.getElementById("user-message") += document.getElementById('textarea').value;
+}
+        </script>
 </body>
 </html>
