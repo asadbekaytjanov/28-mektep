@@ -13,14 +13,10 @@
       crossorigin="anonymous"
     />
           <link rel="stylesheet" href="css/style.css">
+          <script src="js/jquery.js"></script>
 </head>
 
 <body>
-
-    <!--- Created by Asadbek Aytjanov © 2021 - 2022.  Gilt.uz team -->
-
-
-
 
           <header id="navbar">
                   
@@ -49,6 +45,9 @@
           <div id="showcase">
                 <div class="container">
                           <div class="showcase-content">
+                            <div id="loading">
+                              <img id="loading-image" src="img/Loader.gif" alt="Loading..." />
+                            </div>
                           <h1><span class="text-primary">28-mektep</span></h1>
                   <p>
                             Nókis qalalıq bilimlendiriw bólimine qaraslı <br>
@@ -99,5 +98,17 @@
 
     </footer>
        <script src="js/app.js"></script>
+       <script>
+      
+$(window).on('load', function(){
+  setTimeout(removeLoader, 655); 
+});
+function removeLoader(){
+    $( "#loading" ).fadeOut(500, function() {
+     
+      $( "#loading" ).remove(); 
+  });  
+}
+      </script>
 </body>
 </html>
