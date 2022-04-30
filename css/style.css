@@ -1,22 +1,16 @@
+
+
 * {
     margin: 0;
     padding: 0;
 }
-
+.navbar {
+    font-family: 'Tapestry', cursive !important;
+}
 body {
-    background-color: #090A0A !important;
-    font-family: 'Open Sans', sans-serif !important;
+        font-family: 'Open Sans', sans-serif !important;
 }
-table {
-    cursor: pointer;
-}
-a {
-    text-decoration: none !important;
-    color: #fff !important;
-}
-.container {
-    background-color: #212529 !important;
-}
+
 li {
     list-style: none !important;
     display: inline !important;
@@ -37,10 +31,4 @@ hr {
 .carousel-inner h5, .carousel-inner p { 
     color: #fff !important;
     font-size: 1.5rem;
-}
-.white {
-    color: #fff;
-}
-th {
-   align-items: center;
 }
